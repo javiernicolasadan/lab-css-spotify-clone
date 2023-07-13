@@ -6,25 +6,25 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+    margin:0;
+}
 *{
     box-sizing: border-box;
 }
-
 .landingimage {
     width: 100%;
-    
-    
 }
 .spotify-logo{
     width: 15%;
     height: 4%;
-    
 }
 .navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    
 }
 .list{
     list-style: none;
@@ -39,25 +39,66 @@ White: #FFF
     display: flex;
 }
 .landingimagebox{
-    position: relative;
     text-align: center;
-    
 }
 .textfirstdiv{
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 30%;
     color: white;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
 }
 .textfirstdiv h2{
     font-size: 5rem;
     margin-bottom: 1rem;
 }
-
 .textfirstdiv h4{
     font-size: 1.5rem;
-    margin: 0 0;
 }
-
+.seconddiv img{
+    height: 7rem;
+    width: 7rem;
+}
+.seconddiv {
+    text-align: center;
+    font-size: 3rem;
+}
+.iconcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.seconddiv h4{
+    margin-top: 2.30rem;
+    
+}
+.iconboxes h4{
+    color: green;
+    margin-top: 0.35rem;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+.iconboxes h5{
+    font-size: 2rem;
+    margin: 0rem;
+}
+.iconboxes {
+    margin: 0rem 2rem;
+    width: 33%;
+    padding-bottom: 4rem ;
+}
+.thirddiv{
+    background-color: green;
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.thirddiv h3, .thirddiv h4{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 5rem;
+}
+.thirddiv img{
+    padding: 6rem;
+}
