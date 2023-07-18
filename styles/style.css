@@ -121,4 +121,6 @@ body{
     height: 3rem;
     position: absolute;
     right: 50%;
+    top: 50%;
+    background-color: blue ;
 }
